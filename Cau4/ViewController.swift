@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         resultLabel.center = view.center
         resultLabel.text = "Let's Play!"
         resultLabel.textAlignment = .center
-        resultLabel.font = UIFont.boldSystemFont(ofSize: 50) // In đậm và lớn hơn
+        resultLabel.font = UIFont.boldSystemFont(ofSize: 50)
         view.addSubview(resultLabel)
         
         userChoiceImageView = UIImageView(frame: CGRect(x: 50, y: 200, width: 100, height: 100))
